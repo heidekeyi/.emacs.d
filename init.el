@@ -64,8 +64,9 @@
                 (apply orig-fun args))))
 
 
-;; enalbe <s TAB completion emacs v27.2
-(if (version= emacs-version "27.2")
+;; enalbe <s TAB completion emacs v28.1
+;; org munual
+(if (version= emacs-version "28.1")
 	(require 'org-tempo))
 
 
@@ -149,6 +150,7 @@
 
 ;; Load the theme of your choice:
 ;;(modus-themes-load-operandi) ;; OR (modus-themes-load-vivendi)
+;;(modus-themes-load-operandi)
 (modus-themes-load-vivendi)
 
 
