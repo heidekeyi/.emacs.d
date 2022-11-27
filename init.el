@@ -64,9 +64,9 @@
                 (apply orig-fun args))))
 
 
-;; enalbe <s TAB completion emacs v28.1
+;; enalbe <s TAB completion emacs v28.2
 ;; org munual
-(if (version= emacs-version "28.1")
+(if (version= emacs-version "28.2")
 	(require 'org-tempo))
 
 
